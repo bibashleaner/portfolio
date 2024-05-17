@@ -3,19 +3,31 @@ body{
     color: #ffc86b;
 }
 
+/* ........................image............................ */
+
 img{
     height: 20rem;
     width: 50rem;
     margin-left: 23rem;
     margin-top: 40px;
+    border: 15px solid white;
+    border-radius: 13px;
 }
 
+/* .......................image end......................... */
+
+/* .......................Text.............................. */
 h1{
     font-size: 100px;
     display: flex;
     justify-content: center;
     margin-top: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.first{
+    line-height: 2px;
+    margin-bottom: 30px;
 }
 
 p{
@@ -23,4 +35,55 @@ p{
     display: flex;
     justify-content: center;
     margin-top: 1px;
+}
+
+/* .......................Text end.......................... */
+
+/* .......................Contact form...................... */
+
+::placeholder{
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+
+form{
+    margin-top: 80px;
+    margin-left: 25rem;
+    margin-bottom: 5rem;
+    display: grid;
+    column-gap: 2px;
+    row-gap: 0px;
+}
+
+input{
+    width: 22rem;
+    height: 2.5rem;
+}
+
+input[id=email]{
+    margin-left: 24rem;
+    transform: translateY(-45px);
+}
+
+textarea{
+    padding-top: 10px;
+    width: 46rem;  
+    height: 18rem;
+    transform: translateY(-20px);
+    font-size: 16px;
+}
+
+input[type=submit]{
+    background-color: #ffc86b;
+    width: 10rem;
+    border-radius: 100px;
+    font-weight: bold;
+    margin-left: 36rem;
+    transform: translateY(-60px);
+}
+
+input[type=submit]:hover{
+    color: solid red;
 }

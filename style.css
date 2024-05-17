@@ -54,12 +54,6 @@ button{
     float: left;
 } 
 
-/* nav{
-    position: sticky;
-    top:0;
-    background-color: #34353b;
-} */
-
 nav .navbar{
     display: flex;
     align-items: center;
@@ -93,7 +87,6 @@ nav .content{
     margin-right: 18px;
 }
 
-
 nav .content ul{
    display: flex;
    align-items: center;
@@ -101,12 +94,14 @@ nav .content ul{
    font-size: 25px;
    padding-right: 25px; 
 }
+
 nav .content ul li{
  margin: 30px;
  
 }
+
 .contactbttn{
-    border: 3px;
+    border: 4px;
     border-style: solid;
     border-color: var(--clr-yellow);
     padding-top: 4px;
@@ -124,7 +119,7 @@ nav .content ul li{
 
 .contactbttn a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--clr-yellow);
 }
 
 .contactbttn:hover{
