@@ -85,5 +85,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    color: solid red;
+    color: solid red; 
 }
+
+/* ...........................Contact form end................ */
