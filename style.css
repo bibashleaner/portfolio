@@ -155,6 +155,23 @@ nav .content ul li{
     margin-bottom: 2rem;
 }
 
+.imgme{
+    height: 80%;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 56%;
+}
+
+.ppp{
+    height: 48rem;
+    width: 42rem;
+    filter: grayscale(90%);
+    position: relative;
+    z-index: -1;
+    transform: translateY(2rem);
+}
+
 .cv{
     justify-content: space-around;
     margin-bottom: 1.5rem;
@@ -194,12 +211,12 @@ nav .content ul li{
     border-width: 2px;
     height: 140px;
     position: absolute;
-    left: 87%;
+    left: 90%;
     margin-top: 5%;
 }
 
 .media{
-    padding-left: 85.70%;
+    padding-left: 88.5%;
     margin-top: 1px;
 }
 
@@ -381,7 +398,6 @@ nav .content ul li{
 }
 
 .line2 .line1{
-    /* color: var(--clr-yellow); */
     border: 10px solid white;
 }
 

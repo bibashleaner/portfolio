@@ -82,6 +82,7 @@ input[type=submit]{
     font-weight: bold;
     margin-left: 36rem;
     transform: translateY(-60px);
+    cursor: pointer;
 }
 
 input[type=submit]:hover{
